@@ -1,13 +1,19 @@
 package Homework_Evroopt;
 
-public class Test {
-    public static void main(String [] arg){
-        System.out.println("Homework_Evroopt downloaded into git_rep");
+import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Condition.*;
 
-        public void checkPrice();
-    }
+public class Test {
+    @Test
     public void checkPrice(){
-        open("https://evroopt.by/");
+
+        open ("https://evroopt.by/");
+        $(By.xpath ("div.[@class='main_menu__inner']//i[@class='fa fa-search']"));
+
     }
+
+    }
+
+
 
 }

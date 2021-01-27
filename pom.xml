@@ -14,10 +14,11 @@
     </properties>
 
     <dependency>
+      <dependency>
         <groupId>com.codeborne</groupId>
         <artifactId>selenide</artifactId>
         <version>5.17.4</version>
-        <scope>test</scope>
+      </dependency>
     </dependency>
 
 </project>
